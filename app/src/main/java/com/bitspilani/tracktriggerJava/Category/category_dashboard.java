@@ -1,12 +1,10 @@
-package com.bitspilani.inventorytrackerjava.Category;
+package com.bitspilani.tracktriggerJava.Category;
 
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,38 +18,23 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.widget.Toolbar;
 
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
-import com.bitspilani.inventorytrackerjava.Category.category_dashboard;
-import com.bitspilani.inventorytrackerjava.MainActivity;
-import com.bitspilani.inventorytrackerjava.Note.AddNote;
-import com.bitspilani.inventorytrackerjava.Note.EditNote;
-import com.bitspilani.inventorytrackerjava.Note.NoteDetails;
-import com.bitspilani.inventorytrackerjava.R;
-import com.bitspilani.inventorytrackerjava.dashboard;
-import com.bitspilani.inventorytrackerjava.model.Note;
+import com.bitspilani.tracktriggerJava.R;
+import com.bitspilani.tracktriggerJava.model.Note;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 
 public class category_dashboard extends AppCompatActivity {
 

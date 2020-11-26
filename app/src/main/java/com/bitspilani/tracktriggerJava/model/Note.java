@@ -1,4 +1,4 @@
-package com.bitspilani.inventorytrackerjava.model;
+package com.bitspilani.tracktriggerJava.model;
 
 public class Note {
     private String title;

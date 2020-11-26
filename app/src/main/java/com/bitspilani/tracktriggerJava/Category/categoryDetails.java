@@ -1,11 +1,10 @@
-package com.bitspilani.inventorytrackerjava.Category;
+package com.bitspilani.tracktriggerJava.Category;
 
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 
-import com.bitspilani.inventorytrackerjava.Note.EditNote;
-import com.bitspilani.inventorytrackerjava.R;
+import com.bitspilani.tracktriggerJava.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import androidx.annotation.NonNull;
@@ -17,7 +16,6 @@ import android.text.method.ScrollingMovementMethod;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class categoryDetails extends AppCompatActivity {
     Intent data;

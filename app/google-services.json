@@ -1,42 +1,71 @@
 {
   "project_info": {
-    "project_number": "758976156869",
-    "firebase_url": "https://inventorytracker-107cf.firebaseio.com",
-    "project_id": "inventorytracker-107cf",
-    "storage_bucket": "inventorytracker-107cf.appspot.com"
+    "project_number": "910158386673",
+    "firebase_url": "https://oopsproject-c0a9c.firebaseio.com",
+    "project_id": "oopsproject-c0a9c",
+    "storage_bucket": "oopsproject-c0a9c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:758976156869:android:01a01ba08a0d3426190cac",
+        "mobilesdk_app_id": "1:910158386673:android:00fb1fc1b5380a64542050",
         "android_client_info": {
-          "package_name": "com.bitspilani.inventorytrackerjava"
+          "package_name": "com.bitspilani.tracktriggerJava"
         }
       },
       "oauth_client": [
         {
-          "client_id": "758976156869-r7a7qtmknkdvd0q5q3emg5c3vtial9on.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.bitspilani.inventorytrackerjava",
-            "certificate_hash": "e0fa702d1c16ee57075debe49093b189fd13e866"
-          }
-        },
-        {
-          "client_id": "758976156869-cqp7u8bfqm33324bd39fgmom4gpfj3m4.apps.googleusercontent.com",
+          "client_id": "910158386673-jmiekj3r462ttaqbagu5lj5pp3fqor3d.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDQvrCKev8yyeCRWOmL7LIoQ6SSALw0Yic"
+          "current_key": "AIzaSyCuMVEd8c-LSA6ECVNHJ-vVwAtDLtyfXtw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "758976156869-cqp7u8bfqm33324bd39fgmom4gpfj3m4.apps.googleusercontent.com",
+              "client_id": "910158386673-jmiekj3r462ttaqbagu5lj5pp3fqor3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910158386673:android:445e6976c4a02043542050",
+        "android_client_info": {
+          "package_name": "com.bitspilani.tracktriggerJava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910158386673-1a0jus32fq16mhvps29bo0v1u34ve8p9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bitspilani.tracktriggerJava",
+            "certificate_hash": "040df00d931211de0920ce904e1e0706bb53b013"
+          }
+        },
+        {
+          "client_id": "910158386673-jmiekj3r462ttaqbagu5lj5pp3fqor3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuMVEd8c-LSA6ECVNHJ-vVwAtDLtyfXtw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910158386673-jmiekj3r462ttaqbagu5lj5pp3fqor3d.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

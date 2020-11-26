@@ -1,4 +1,4 @@
-package com.bitspilani.inventorytrackerjava;
+package com.bitspilani.tracktriggerJava;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.bitspilani.inventorytrackerjava;
+package com.bitspilani.tracktriggerJava;
 
 import android.content.Intent;
 import android.os.Build;
@@ -28,11 +28,11 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
-import com.bitspilani.inventorytrackerjava.Category.category_dashboard;
-import com.bitspilani.inventorytrackerjava.Note.AddNote;
-import com.bitspilani.inventorytrackerjava.Note.EditNote;
-import com.bitspilani.inventorytrackerjava.Note.NoteDetails;
-import com.bitspilani.inventorytrackerjava.model.Note;
+import com.bitspilani.tracktriggerJava.Category.category_dashboard;
+import com.bitspilani.tracktriggerJava.Note.AddNote;
+import com.bitspilani.tracktriggerJava.Note.EditNote;
+import com.bitspilani.tracktriggerJava.Note.NoteDetails;
+import com.bitspilani.tracktriggerJava.model.Note;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.android.gms.tasks.OnFailureListener;

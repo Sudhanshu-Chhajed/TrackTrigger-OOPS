@@ -1,6 +1,6 @@
 //For Testing of data. Not of use after connecting with the firebase.
 
-package com.bitspilani.inventorytrackerjava.model;
+package com.bitspilani.tracktriggerJava.model;
 
 import android.content.Intent;
 import android.os.Build;
@@ -14,8 +14,8 @@ import androidx.annotation.RequiresApi;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bitspilani.inventorytrackerjava.Note.NoteDetails;
-import com.bitspilani.inventorytrackerjava.R;
+import com.bitspilani.tracktriggerJava.Note.NoteDetails;
+import com.bitspilani.tracktriggerJava.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.bitspilani.inventorytrackerjava.auth;
+package com.bitspilani.tracktriggerJava.auth;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -19,24 +19,15 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bitspilani.inventorytrackerjava.MainActivity;
-import com.bitspilani.inventorytrackerjava.R;
-import com.bitspilani.inventorytrackerjava.dashboard;
+import com.bitspilani.tracktriggerJava.MainActivity;
+import com.bitspilani.tracktriggerJava.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.FirebaseException;
-import com.google.firebase.FirebaseTooManyRequestsException;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.auth.PhoneAuthCredential;
-import com.google.firebase.auth.PhoneAuthOptions;
 import com.google.firebase.auth.PhoneAuthProvider;
 import com.google.firebase.auth.UserProfileChangeRequest;
-import com.google.firebase.internal.InternalTokenProvider;
-
-import java.util.concurrent.TimeUnit;
 
 public class Register extends AppCompatActivity {
     private static final String TAG = "Register";

@@ -1,10 +1,10 @@
-package com.bitspilani.inventorytrackerjava.Note;
+package com.bitspilani.tracktriggerJava.Note;
 
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 
-import com.bitspilani.inventorytrackerjava.R;
+import com.bitspilani.tracktriggerJava.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import androidx.annotation.NonNull;
